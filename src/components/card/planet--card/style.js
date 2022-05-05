@@ -19,6 +19,21 @@ const Container = Styled.div`
     &:hover {
       width: 100%;
     }
+
+    @media (max-width: 800px) {
+      position: relative;
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    position: relative;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
   }
 `;
 

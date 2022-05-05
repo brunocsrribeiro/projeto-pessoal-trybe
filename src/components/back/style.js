@@ -16,6 +16,12 @@ const Container = Styled.div`
     &:hover {
       color: #ff0;
     }
+
+    @media (max-width: 800px) {
+    position: relative;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+  }
   }
 `;
 
