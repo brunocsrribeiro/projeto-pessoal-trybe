@@ -10,4 +10,5 @@ export const Container = Styled.div`
   color: #fff;
   letter-spacing: .2rem;
   width: 100%;
+  text-shadow: 2px 2px 8px #e88eee;
 `;

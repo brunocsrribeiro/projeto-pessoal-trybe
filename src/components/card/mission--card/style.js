@@ -7,10 +7,9 @@ const Container = Styled.div`
   align-items: center;
   width: 450px;
   height: 300px;
-  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8) inset;
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(1px);
-  color: #454545;
   border-radius: 4px;
   padding: 1rem;
 
