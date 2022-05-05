@@ -19,6 +19,13 @@ const Container = Styled.div`
       border-radius: 9px;
     }
   }
+
+  @media (max-width: 800px) {
+    position: relative;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    padding: 1rem;
+  }
 `;
 
 export default Container;

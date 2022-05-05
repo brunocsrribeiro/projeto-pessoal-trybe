@@ -17,6 +17,12 @@ const Container = Styled.div`
     color: #ff0;
     letter-spacing: 0.4rem;
     text-align: center;
+
+    @media (max-width: 800px) {
+      position: relative;
+      letter-spacing: .1rem;
+      font-size: 1.4rem;
+    }
   }
 
   .TextContainer {
@@ -29,6 +35,22 @@ const Container = Styled.div`
     font-size: 1.8rem;
     color: #fff;
     line-height: 2rem;
+
+    @media (max-width: 800px) {
+      position: relative;
+      letter-spacing: .1rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    position: relative;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+    padding: .5rem;
+    max-width: 60%;
+    height: 100%;
+    margin: 0 auto;
   }
 `;
 
